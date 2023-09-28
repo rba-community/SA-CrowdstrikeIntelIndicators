@@ -1,0 +1,12 @@
+name: release
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - "src/**"
+
+jobs:
+  call-packaging-workflow:
+    uses: ZachChristensen28/splunk-github-wfa/.github/workflows/package-app.yml@main

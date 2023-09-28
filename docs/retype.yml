@@ -1,0 +1,29 @@
+# DELETE THIS LINE: More info at https://retype.com/
+input: .
+output: .retype
+url: #TODO
+branding:
+  title: #TODO
+  label: v1.0.0
+  logo: static/#TODO.svg
+  colors:
+    label:
+      text: "#fff"
+      background: "#e85e26"
+links:
+- text: Splunkbase
+  link: https://splunkbase.splunk.com/#TODO
+  target: blank
+  icon: apps
+- text: GitHub
+  link: https://github.com/rba-community/#TODO/releases
+  target: blank
+  icon: mark-github
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved.\nMade with :icon-heart-fill: by [#TODO](#TODO){ target=blank }"
+  links: 
+    - text: Connect with #TODO on LinkedIn
+      link: https://www.linkedin.com/in/#TODO/
+      target: blank
+markdown:
+  lineBreaks: hard

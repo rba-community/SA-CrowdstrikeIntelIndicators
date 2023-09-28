@@ -1,0 +1,5 @@
+# TODO: DELETE THIS FILE
+
+Use the following to create a favicon and put it at /docs
+
+https://realfavicongenerator.net/
