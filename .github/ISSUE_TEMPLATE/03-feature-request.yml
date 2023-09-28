@@ -19,8 +19,8 @@ body:
     attributes:
       label: Related links
       description: >-
-        (optional) Please list all links to open and closed [issues](#TODO) or to [documentation sections](#TODO)
+        (optional) Please list all links to open and closed [issues](https://github.com/rba-community/SA-CrowdstrikeIntelIndicators/issues) or to [documentation sections](https://cs-intel.rba.community/)
         that are relevant to your idea.
       value: |-
-        - [Feature Request](#TODO)
+        - [Feature Request](https://cs-intel.rba.community/)
         -

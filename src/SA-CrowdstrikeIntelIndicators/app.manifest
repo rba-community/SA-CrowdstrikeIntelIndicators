@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "info": {
+    "title": "SA-CrowdstrikeIntelIndicators",
+    "id": {
+      "group": null,
+      "name": "SA-CrowdstrikeIntelIndicators",
+      "version": "1.0.0"
+    },
+    "author": [
+      {
+        "name": "Dennis Morton",
+        "email": null,
+        "company": null
+      }
+    ],
+    "releaseDate": null,
+    "description": "Adds CrowdStrike's intelligence indicators to Splunk Enterprise Security's threat framework.",
+    "classification": {
+      "intendedAudience": "Security",
+      "categories": [
+        "Endpoint",
+        "Security, Fraud, & Compliance",
+        "Information"
+      ],
+      "developmentStatus": "Production/Stable"
+    },
+    "commonInformationModels": null,
+    "license": {
+      "name": "Apache License",
+      "text": null,
+      "uri": "https://www.apache.org/licenses/LICENSE-2.0"
+    },
+    "privacyPolicy": {
+      "name": "Splunk Privacy Policy",
+      "text": null,
+      "uri": "https://www.splunk.com/en_us/legal/privacy/privacy-policy.html"
+    },
+    "releaseNotes": {
+      "name": "README",
+      "uri": "https://cs-intel.rba.community/releases/"
+    }
+  },
+  "dependencies": {
+    "TA-crowdstrike-intel-indicators": {
+      "version": ">=3.1.2",
+      "optional": true
+    },
+    "SplunkEnterpriseSecuritySuite": {
+      "version": ">=7.0.0",
+      "optional": false
+    }
+  },
+  "tasks": [
+    "threatlist://crowdstrike_ip_intel",
+    "threatlist://crowdstrike_domain_intel",
+    "threatlist://crowdstrike_url_intel",
+    "threatlist://crowdstrike_hash_intel"
+  ],
+  "inputGroups": null,
+  "incompatibleApps": null,
+  "platformRequirements": null,
+  "supportedDeployments": [
+    "*"
+  ],
+  "targetWorkloads": [
+    "_search_heads"
+  ]
+}
