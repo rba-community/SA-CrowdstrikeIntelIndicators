@@ -1,0 +1,27 @@
+input: .
+output: .retype
+url: cs-intel.rba.community
+branding:
+  title: SA-CrowdstrikeIntelIndicators
+  label: v1.0.0
+  colors:
+    label:
+      text: "#fff"
+      background: "#E14F28"
+links:
+- text: Splunkbase
+  link: https://splunkbase.splunk.com/TODO
+  target: blank
+  icon: apps
+- text: GitHub
+  link: https://github.com/rba-community/SA-CrowdstrikeIntelIndicators/releases
+  target: blank
+  icon: mark-github
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved.\nMade with :icon-heart-fill: by [ZachTheSplunker](https://www.linkedin.com/in/zachthesplunker/){ target=blank }"
+  links: 
+    - text: Connect with the Author, Dennis Morton, on LinkedIn
+      link: https://www.linkedin.com/in/dennis-morton-627632/
+      target: blank
+markdown:
+  lineBreaks: hard
